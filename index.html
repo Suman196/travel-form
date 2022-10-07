@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Travel Form </title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <img class="gn" src="gn.jpeg" alt="GNIT" srcset="">
+    <div class="container">
+        <h1>Welcome To GNIT US Trip Form</h1>
+        <p>Enter your details to confirm your participation in this trip</p>
+        <p id="sec">Thanks for submitting the form. We are happy to see you.</p>
+        <!-- send data like password or secret and action by which and where it is saved(backend) -->
+        <form action="index.php" method="post">
+            <input type="text" name="name" id="name" placeholder="Enter Your Name">
+            <input type="text" name="age" id="age" placeholder="Enter Your Age"> 
+            <input type="text" name="gender" id="gender" placeholder="Enter Your Gender"> 
+            <input type="email" name="email" id="email" placeholder="Enter your email">
+            <input type="phone" name="phone" id="phone" placeholder="Enter your ph.number">
+            <textarea name="desc" id="desc" cols="30" rows="10" placeholder="Enter other info. "></textarea> 
+            <button class="btn">Submit</button>
+            <!-- <button class="btn">Reset</button> -->
+
+
+        </form>
+
+
+    </div>
+    <script src="index.js"></script>
+   
+    
+</body>
+</html>
